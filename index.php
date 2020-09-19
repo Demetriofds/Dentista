@@ -5,8 +5,8 @@
 		<!-- for-mobile-apps -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="Clinica Odontologia, odontologia, Dentista, cirurgiao dentista, Ortodontista, Ortodontia" />
-		<meta name="descripition" content="Dentista/Clínica Odontológica - Falcão Ferrari - SBC">
+		<meta name="keywords" content="Clinica Odontologia, odontologia, Dentista, cirurgião dentista, Ortodontista, Ortodontia, próteses" />
+		<meta name="description" content="Dentista/Clínica Odontológica - Falcão Ferrari - SBC">
 		<script type="application/x-javascript">
 			addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 			function hideURLbar(){ window.scrollTo(0,1); }
@@ -35,9 +35,9 @@
 	<body>
 	<!-- header -->
 		<div class="header">
-		<!-- nome-nome consultorio-->
+		<!-- nome-nome consultório-->
 		<?php include_once('includes/nome-consultorio.php'); ?>
-		<!--// nome-consultorio -->
+		<!--// nome-consultório -->
 		</div>
 		<!-- Fone e e-mail-->
 		<?php include_once('includes/fone-email.php'); ?>
