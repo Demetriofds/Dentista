@@ -31,21 +31,21 @@ body a:hover{
 }
 .logo a{
 	color: #fff;
-	font-size: 2.0em;
+	font-size: 1.9em;
 	text-decoration: none;
 	background: url(../images/coracao.webp) no-repeat 0px 0px;
 	display: block;
-	padding: 0.5em 0 0 2.2em;
-	/* font-weight: 600; */
-	/* font-family:Roboto+mono; */
+	padding: 0.4em 0.4em 0.4em 2.2em;              /*0.5em 0 0 2.2em;*/
+	font-weight: 200;
+	font-family:Roboto+mono;
 }
 .logo a:hover{
-	color:#fff;
+	color:#FD4E4E;
 	text-decoration:none;
 }
 .logo h1{
 	font-size: 1.2em;
-	/* padding: 0.4em 0 0 2.5em; */
+	padding: 0.4em 0 0 2.5em;
 }
 .header-icons{
 	float:right;
@@ -1933,7 +1933,7 @@ ul.sint {
 	  width: 95%;
 	}
 	.header {
-		padding: 1.5em 0;
+		padding: 1.0em 0; /*alterei de 1.5 para 1.0*/
 	}
 	.header-icons ul {
 		padding: 0.8em 0 0;

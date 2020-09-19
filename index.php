@@ -66,26 +66,10 @@
 					</nav>
 					<!-- Slider-starts-Here -->
 					<script src="js/responsiveslides.min.js"></script>
-					<script>
-						// You can also use "$(window).load(function() {"
-						$(function () {
-						// Slideshow 4
-						$("#slider3").responsiveSlides({
-							auto: true,
-							pager: true,
-							nav: false,
-							speed: 500,
-							namespace: "callbacks",
-							before: function () {
-							$('.events').append("<li>before event fired.</li>");
-							},
-							after: function () {
-							$('.events').append("<li>after event fired.</li>");
-							}
-						});
 
-						});
-					</script>
+					<!-- Coloquei o slide em um arquivo chamado slideshow pasta js -->
+					<script src="slideshow.js"></script> 
+					
 					<!--//End-slider-script -->
 					<div  id="top" class="callbacks_container wow fadeInUp" data-wow-delay="0.5s">
 						<ul class="rslides" id="slider3">
@@ -98,7 +82,7 @@
 							</li>
 							<li>
 								<div class="banner-info">
-									<h2>Tratamento Ortodontico</h2>
+									<h2>Tratamento Ortodôntico</h2>
 									<p>Ortodontia é uma especialidade odontológica que corrige a posição dos dentes e dos ossos maxilares posicionados de forma inadequada. Dentes tortos ou dentes que não se encaixam corretamente são difíceis de serem mantidos limpos, podendo ser perdidos precocemente, devido à deterioração e à doença periodontal.</p>
 									<a href="single.html" class="hvr-shutter-out-horizontal">Saiba mais</a>
 								</div>
@@ -112,7 +96,7 @@
 							</li>
 							<li>
 								<div class="banner-info">
-									<h2>Proteses Dentárias</h2>
+									<h2>Próteses Dentárias</h2>
 									<p>As próteses dentárias são soluções feitas nas medidas para aquelas pessoas que tiveram algum problema e precisam repor algum dente que foi extraído, que não tenha nascido ou até tenha se quebrado. Para isso, existem diferentes tipos de prótese dentária que se adaptam às necessidades específicas de cada paciente.</p>
 									<a href="single.html" class="hvr-shutter-out-horizontal">Saiba mais</a>
 								</div>
@@ -330,7 +314,7 @@
 							<ul>
 								<li><a href="#">Disfunção Temporomandibular e Dor Orofacial</a></li>
 								<li><a href="#">Cirurgia e Traumatologia Buco-Maxilo-Facial</a></li>
-								<li><a href="#">Radiologia Odontológica e Imaginologia</a></li>
+								<li><a href="#">Radiologia Odontológica</a></li>
 								<li><a href="#">Estomatologia</a></li>
 								<li><a href="#">Ortopedia Funcional dos Maxilares</a></li>
 								<li><a href="#">Prótese Bucomaxilofacial</a></li>
