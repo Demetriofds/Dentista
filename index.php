@@ -68,7 +68,7 @@
 					<script src="js/responsiveslides.min.js"></script>
 
 					<!-- Coloquei o slide em um arquivo chamado slideshow pasta js -->
-					<script src="slideshow.js"></script> 
+					<script src="js/slideshow.js"></script> 
 					
 					<!--//End-slider-script -->
 					<div  id="top" class="callbacks_container wow fadeInUp" data-wow-delay="0.5s">
@@ -387,14 +387,14 @@
 	<!-- here stars scrolling icon -->
 		<script type="text/javascript">
 			$(document).ready(function() {
-				/*
+				
 				var defaults = {
 					containerID: 'toTop', // fading element id
 					containerHoverID: 'toTopHover', // fading element hover id
 					scrollSpeed: 1200,
 					easingType: 'linear'
 				};
-				*/
+				
 
 				$().UItoTop({ easingType: 'easeOutQuart' });
 
