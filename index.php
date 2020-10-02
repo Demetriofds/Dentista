@@ -158,14 +158,14 @@
 					<div class="clearfix"> </div>
 					<div class="banner-bottom-grid-right">
 						<div class="banner-bottom-grid-right-grid">
-							<h3>Facebook</h3>
-							<p> Agende sua consulta pela nossa paina do Face!</p>
-							<!-- <form>
+							<!-- <h3>Facebook</h3>
+							<p> Agende sua consulta pela nossa paina do Face!</p> -->
+							<form>
 								<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
 								<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
 								<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Mensagem...</textarea>
 								<input type="submit" value="Enviar	" >
-							</form> -->
+							</form>
 						</div>
 					</div>
 					<link rel="stylesheet" href="css/swipebox.css">
